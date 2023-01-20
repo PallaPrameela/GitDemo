@@ -11,3 +11,10 @@ Feature: Registered user can make a bill payment
     When I login as a SENDER
     Then I can transfer money 10 to RECIPIENT
 
+
+    @login
+    Scenario: As a user, I should be able to login
+      Given I give correct username
+      And I give correct password
+      Then I should be able to login successfully
+
