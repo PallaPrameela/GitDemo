@@ -10,6 +10,7 @@ Feature: Registered user can make a bill payment
     And I register user as 'RECIPIENT'
     When I login as a SENDER
     Then I can transfer money 10 to RECIPIENT
+    And I have added a new line
 
 
     @login
