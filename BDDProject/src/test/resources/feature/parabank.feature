@@ -19,3 +19,7 @@ Feature: Registered user can make a bill payment
       And I give correct password
       Then I should be able to login successfully
 
+    @suvarna
+    Scenario: Added by suvarna
+      Given I have added
+
