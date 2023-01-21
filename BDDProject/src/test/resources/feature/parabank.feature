@@ -21,4 +21,7 @@ Feature: Registered user can make a bill payment
     @suvarna
     Scenario: Added by suvarna
       Given I have added
+      Then I have commited
+      And push the changes
+
 
